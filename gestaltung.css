@@ -1,0 +1,336 @@
+html {
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited{
+text-decoration:none;
+}
+ a:hover{ 
+    text-decoration: underline;
+ }
+
+.navigation, tr, td, a {
+color: white;
+padding-block: 20px;
+padding-inline: 15px;
+}
+
+
+
+.logo, img {
+display: flex;
+justify-content:initial center;
+margin-inline: auto;
+}
+
+.button {
+display: flex;
+justify-content: center;
+margin-inline: auto;
+
+}
+
+#btn-1 {
+    cursor: pointer;
+    margin: 32px;
+    padding-block: 16px;
+    padding-inline: 30px;
+    background-color: white;
+    color: rgb(92, 23, 23);
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid rgb(92, 23, 23);
+    border-radius: 50px;
+    box-shadow: 4px 4px rgb(92, 23, 23);
+}
+
+.intro {
+color: white;
+font-size: 14px;
+background-color:brown;
+margin-bottom: 20px;
+padding-left:450px;
+padding-right:400px;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+
+
+
+.covercontainer, li {
+list-style: none;
+}
+
+.covercontainer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+gap:40px;
+margin-left: 20px;
+width: auto;
+:hover{
+transform:scale(1.1);
+}
+}
+
+.maneskin {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-block: 30px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+color: brown;
+font-size: 12px;
+}
+.Queen {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-block: 30px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Lana {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 42px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Chappell {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 42px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Adele {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 55px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Amy {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-block: 30px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Marina {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 43px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Florence {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-block: 30px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Change {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 43px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Heroes {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 30px;
+padding-bottom: 55px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+.Ziggy {
+background-color: white;
+width: 200px;
+padding-left: 30px;
+padding-right: 30px;
+padding-block: 30px;
+margin-bottom: 0px;
+margin-top: 30px;
+border-radius: 50px;
+margin-top: 30px;
+color: brown;
+font-size: 12px;
+}
+
+
+
+.zeiten, table {
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 5px;
+margin-top: 5px;
+border-radius: 50px;
+color: white;
+}
+
+.galerie{
+padding-left: 150px;
+padding-right: 100px;
+padding-top: 90px;
+padding-bottom: 40px;
+
+}
+.img1, img {
+    :hover{
+        transform: scale(2);
+    }
+padding-bottom:40px;
+}
+
+.img2, img {
+    :hover{
+        transform: scale(2);
+    }
+    padding-bottom:40px;
+}
+.img3, img {
+    :hover{
+        transform: scale(2);
+    }
+    padding-bottom:40px;
+}
+
+.img4, img {
+    :hover{
+        transform: scale(2);
+    }
+    padding-bottom:40px;
+}
+.img5, img {
+    :hover{
+        transform: scale(2);
+    }
+    padding-bottom:40px;
+}
+
+
+.mitarbeiter {
+    font-size: 14px;
+    padding-inline: 50px;
+}
+
+
+h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h2{
+font-size: 16px;
+font-weight: bold;
+padding-bottom: 5px;
+padding-top: 15px;
+}
+
+.impressum {
+color: white;
+padding-left: 70px;
+padding-right: 200px;
+padding-block: 20px;
+}
+.events{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: flex-start;
+}
+
+.infotext, h3 {
+color: white;
+}
+h3 {
+font-size: 16px;
+font-weight: bold;
+padding-top: 35px;
+}
+
+h4{
+font-size: 14px;
+padding-top:10px;
+}
+
+.mehrinfo {
+padding-left: 70px;
+padding-right: 250px;
+}
+
+h5{
+font-size: 16px;
+padding-bottom:10px;   
+padding-top: 10px;
+padding-left: 10px;
+}
